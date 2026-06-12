@@ -32,11 +32,11 @@ print(familia.keys()) # retona apenas as chaves dos dicionarios
 
 print("=" * 60)
 
-resultado = familia.pop("felipe") #remover uma chave la lista
+resultado = familia.pop("felipe") #remover uma chave a lista
 print(resultado)
 
 resultado = familia.pop("felipe", {}) #caso nao ache oque é pra remover, mostre {}
-print(resultado)
+print(resultado) 
 
 
 print("=" * 60)
@@ -44,6 +44,12 @@ print("=" * 60)
 resp = familia["silker"].setdefault("nome_completo","legal") #procura se tem alguma chave com o nome, se ja tiver, nao faz nada
 resp = familia["silker"].setdefault("silker","legal") # se nao tiver ainda, adiciona ela
 print(resp)
+print(familia)
+
+print("=" * 60)
+
+familia["silker"].update({"nome_completo": "silker carvalho fidelles"}) # atualiza o dicionario
+familia.update({"natalia":{"nome_completo": "natalida dos santos", "telefone":"98952-4562"}})
 print(familia)
 
 print("=" * 60)
