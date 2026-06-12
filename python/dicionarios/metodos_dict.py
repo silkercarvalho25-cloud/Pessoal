@@ -50,6 +50,7 @@ print("=" * 60)
 
 familia["silker"].update({"nome_completo": "silker carvalho fidelles"}) # atualiza o dicionario
 familia.update({"natalia":{"nome_completo": "natalida dos santos", "telefone":"98952-4562"}})
+
 print(familia)
 
 print("=" * 60)
