@@ -51,6 +51,26 @@ print("=" * 60)
 familia["silker"].update({"nome_completo": "silker carvalho fidelles"}) # atualiza o dicionario
 familia.update({"natalia":{"nome_completo": "natalida dos santos", "telefone":"98952-4562"}})
 
+print("=" * 60)
+
+resultado = familia.values() # ao contrario do keys, ele retorna os valores
+print(resultado)
+
+print("=" * 60)
+
+verificador = "silker" in familia #verifica se ha alguma informaçoes especifica dentro do dicionario referente
+print(verificador)
+
+verificador = "marcios" in familia
+print(verificador)
+
+verificador = "nome_todo" in familia["marcos"]
+print(verificador)
+
+
+print("=" * 60)
+
+del familia["silker"]["telefone"]
 print(familia)
 
 print("=" * 60)
