@@ -14,4 +14,3 @@ dog_2 = Cachorro("Dexter", "Shitsu")
 dog_1.latir()
 
 dog_2.latir()
-    
