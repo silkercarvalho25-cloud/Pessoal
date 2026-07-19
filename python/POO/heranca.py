@@ -23,22 +23,21 @@ class Caminhao(Veiculo):
         self.carregado = carregado
 
     def esta_carregado(self):
-        print(
-            f"{"sim," if self.carregado else "nao,"} estou carregado")
+        print(f"{"sim," if self.carregado else "nao,"} estou carregado")
 
 
-moto = Motocicleta("vermelha", "Porte Pequeno", "MOTO-6521", "2 roads")
-print(moto)
-print(moto.cor)
-print(moto.tamanho)
-moto.barulho()
+# moto = Motocicleta("vermelha", "Porte Pequeno", "MOTO-6521", "2 roads")
+# print(moto)
+# print(moto.cor)
+# print(moto.tamanho)
+# moto.barulho()
 
 
-carro = Carro("branco", "Porte Grande", "CARRO-6525", "4 rodas")
-print(carro.tamanho)
-print(carro.cor)
-print(carro.placa)
-carro.barulho()
+# carro = Carro("branco", "Porte Grande", "CARRO-6525", "4 rodas")
+# print(carro.tamanho)
+# print(carro.cor)
+# print(carro.placa)
+# carro.barulho()
 
 
 caminhao = Caminhao("Pretao", "Porte grande", "CAMINHAO-5641", "6 rodas",False)
